@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+html, body{
+  color: white;
+  background-color: powderblue;
+  font-family: Lato, sans-serif;
+  margin-top: 50px;
+}
+
+h1{
+  color: midnightblue;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.App{
+  display: 	flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista-tareas{
+  width: 600px;
+  min-height: 400px;
+  background-color: darkgrey;
+  padding: 25px;
+  margin: 5px;
+  border-radius: 26px;
+}
