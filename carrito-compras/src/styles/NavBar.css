@@ -1,0 +1,16 @@
+.navbar 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;    
+    background: #b0b9bb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;    
+}
+
+.container-fluid{
+    padding: 0 50px;
+}
